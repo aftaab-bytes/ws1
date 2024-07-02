@@ -1,0 +1,141 @@
+	<!DOCTYPE html>
+	<html>
+	<!-- <head>
+		<title>Engineering Workshop Preview</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f0f0f0;
+			}
+			
+			.header {
+				background-color: #333;
+				color: #fff;
+				padding: 20px;
+				text-align: center;
+			}
+			
+			.content {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				padding: 20px;
+			}
+			
+			.button {
+				background-color: #4CAF50;
+				color: #fff;
+				padding: 10px 20px;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			
+			.button:hover {
+				background-color: #3e8e41;
+			}
+		</style>
+	</head> -->
+	<head>
+		<title>Engineering Workshop</title>
+		<style>
+			
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f0f0f0;
+			}
+			
+			.header {
+				background-color: #333;
+				color: #fff;
+				padding: 20px;
+				text-align: center;
+				animation: slide-down 2s;
+			}
+			
+			.content {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				padding: 20px;
+				animation: fade-in 2s;
+			}
+			
+			.image {
+				width: 50%;
+				margin: 20px;
+				animation: zoom-in 2s;
+			}
+			
+			.text {
+				animation: slide-in 2s;
+			}
+			
+			.buttons {
+				animation: fade-in 2s;
+				background-color: #4CAF50;
+				color: #fff;
+				padding: 10px 20px;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}		
+			@keyframes slide-down {
+				0% {
+					transform: translateY(-100%);
+				}
+				100% {
+					transform: translateY(0);
+				}
+			}
+			
+			@keyframes fade-in {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+			
+			@keyframes zoom-in {
+				0% {
+					transform: scale(0.5);
+				}
+				100% {
+					transform: scale(1);
+				}
+			}
+			
+			@keyframes slide-in {
+				0% {
+					transform: translateX(-100%);
+				}
+				100% {
+					transform: translateX(0);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Engineering Workshop Preview</h1>
+		</div>
+		
+		<div class="content">
+			<p>Welcome to our engineering workshop! Here, you'll find a range of activities and projects that will help you develop your skills and knowledge in various engineering disciplines.</p>
+			
+			<p>Below, you'll find a selection of our most popular workshops. Click on each button to learn more and register for the workshop that interests you.</p>
+			
+			<button class="button" onclick="location.href='house_wiring.html'">1. House Wiring</button>
+			<button class="button" onclick="location.href='welding.html'">2. Welding</button>
+			<button class="button" onclick="location.href='carpentry.html'">3. Carpentry</button>
+			<button class="button" onclick="location.href='tin_smithy.html'">4. Tin Smithy</button>
+			<button class="button" onclick="location.href='fitting.html'">5. Fitting</button>
+			
+			<div class="container" style="text-align: center;">
+				<h3>Know about the developers of this page.</h3>
+				<button style="background-color: #4CAF50; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px;" onclick="window.location.href='developers.html'">Developers</button>
+			</div>
+	</body>
+	</html> 
